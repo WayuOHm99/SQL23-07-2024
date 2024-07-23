@@ -1,0 +1,4 @@
+SELECT TOP 5
+    empnum,CONCAT(empname, ', ', position) AS 'employee name'
+FROM dbemployee3593
+ORDER BY empnum DESC;
