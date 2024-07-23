@@ -1,0 +1,5 @@
+SELECT empname, salary, position
+FROM dbemployee3593
+WHERE empname LIKE '%N%'
+AND position = 'clerk'
+ORDER BY salary DESC;
