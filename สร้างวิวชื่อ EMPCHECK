@@ -1,0 +1,5 @@
+CREATE VIEW EMPCHECK AS
+SELECT empnum, empname, position, depno
+FROM dbemployee3593
+WHERE depno IN (SELECT depno FROM dep2)
+WITH CHECK OPTION;
