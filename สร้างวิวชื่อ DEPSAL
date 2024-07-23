@@ -1,0 +1,4 @@
+CREATE VIEW DEPSAL AS
+SELECT depno, depname, location
+FROM DEP2
+WHERE depname = 'finance' OR location = 'silom';
